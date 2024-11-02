@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cta-button:hover,
+.special-action:hover {
+    box-shadow: 0 7px 57px 2px #1a76ffbd;
+}
+
+
+/* UTILITY CLASSES */
+
+.section-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    z-index: -1;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.gray-text {
+    color: #9F9F9F;
+}
+
+.page-header {
+    font-family: 'Bricolage Grotesque';
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.page-subheading {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-top: -3rem;
+    text-align: center;
+}
+
+.section-header {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+    line-height: 100%;
+}
+
+.section-subheader {
+    font-size: 1.25rem;
+    color: #c9c9c9;
+    font-family: Inter;
+    margin-top: 1rem;
+}
+
+.gray-header {
+    font-size: 3rem;
+    font-family: Inter;
+    font-weight: 700;
+    color: #484848;
+}
+
+.two-tone-text {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+
+.filled-btn {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: #0066FF;
+    color: white;
+
+    border-radius: 40px;
+}
+
+.outlined-btn {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 40px;
+    background: none;
+    color: #0066FF;
+    border: 1px solid #0066FF;
 }

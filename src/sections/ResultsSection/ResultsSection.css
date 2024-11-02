@@ -1,0 +1,58 @@
+.results-section {
+    text-align: center;
+}
+
+.results-data {
+    padding: 4rem 2rem;
+}
+
+.results-section h2,
+.results-section p {
+    text-align: right;
+}
+
+.results-metrics {
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.metric h3 {
+    font-family: Bricolage Grotesque;
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.metric p {
+    margin: 0;
+    margin-top: -1rem;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #e4e4e4;
+}
+
+.vr {
+    width: 1px;
+    height: 60px;
+    background-color: #e4e4e4;
+}
+
+.tagline {
+    background-color: #1A75FF;
+    color: #002966;
+    font-family: Bricolage Grotesque;
+    font-size: 4rem;
+    font-weight: 500;
+
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.tagline p {
+    text-align: center;
+}

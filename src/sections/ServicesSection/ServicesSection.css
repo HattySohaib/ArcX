@@ -1,0 +1,67 @@
+.services-section {
+    padding: 100px 20px;
+    background: none;
+    color: #fff;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-section .section-header {
+    text-align: center;
+}
+
+.services-grid {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    background-color: rgba(29, 29, 29, 0.459);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+}
+
+.service-card h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.service-card p {
+    color: #bbb;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.learn-more-button {
+    font-size: 1rem;
+    color: white;
+    background-color: #0066ff;
+    padding: 0.5rem 2rem;
+    width: fit-content;
+    border-radius: 40px;
+}
+
+.special-action {
+    border: 2px solid white;
+    color: white;
+    border-radius: 40px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #0050C8, #00ABB7);
+    box-shadow: 0 7px 57px 1px #1a76ff85;
+}

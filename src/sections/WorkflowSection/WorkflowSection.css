@@ -1,0 +1,54 @@
+.workflow-section {
+    padding: 5rem 0;
+    background: none;
+
+    border-top: 1px solid #6C6C6C;
+    border-bottom: 1px solid #6C6C6C;
+
+    position: relative;
+
+}
+
+.headings {
+    padding: 0 2rem;
+    margin: 2rem 0;
+}
+
+.workflow-step {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    padding: 4rem;
+
+    background-color: #151515;
+}
+
+.step-number {
+    font-size: 7rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #0066FF;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Bricolage Grotesque;
+
+}
+
+.step-details h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.step-details p {
+    color: #bbb;
+    font-size: 1rem;
+    line-height: 1.6;
+}
